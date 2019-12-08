@@ -177,13 +177,28 @@ button{
     position: absolute;
     left: 45%;
     transform: translate(0%-40%);
-background: #EB5757; 
-background: -webkit-linear-gradient(to right, #000000, #EB5757);  
-background: linear-gradient(to right, #000000, #EB5757); 
+    background: #EB5757; 
+    background: -webkit-linear-gradient(to right, #000000, #EB5757);  
+    background: linear-gradient(to right, #000000, #EB5757); 
     color: white;
-font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 
 }
+
+@media only screen and (max-width:900px){
+    button{
+        font-size: 18px;
+        position: absolute;
+        left: 31%;
+        transform: translate(0%-35%);
+    }
+}
+
+button:hover{
+    transform: scale(1.2)
+
+}
+
 /* --------------------------footer----------------------------------------- */
 
 footer{
