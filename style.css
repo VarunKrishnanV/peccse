@@ -98,7 +98,7 @@ body{
 @media only screen and (max-width:900px){
     .home p{
         font-size: 18px;
-        line-height: 1.9;
+        line-height: 2;
     }
 }
 
@@ -121,6 +121,11 @@ body{
     font-size: 35px;
 }
 
+@media only screen and (max-width:900px){
+    .pro h2{
+        font-size: 23px;
+    }
+}
 
 
 
@@ -230,7 +235,7 @@ footer{
 
 @media only screen and (max-width:900px){
     .online{ 
-        font-size: 28px;
+        font-size: 23px;
     }
 }
 
