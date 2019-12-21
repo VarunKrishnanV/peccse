@@ -74,6 +74,7 @@ body{
 .home{
     font-family: 'Times New Roman', Times, serif;
     margin: 5px 20%;
+    background: 
 }
 
 @media only screen and (max-width:900px){
@@ -98,7 +99,7 @@ body{
 @media only screen and (max-width:900px){
     .home p{
         font-size: 18px;
-        line-height: 2;
+        line-height: 1.9;
     }
 }
 
@@ -121,34 +122,30 @@ body{
     font-size: 35px;
 }
 
-@media only screen and (max-width:900px){
-    .pro h2{
-        font-size: 23px;
-    }
-}
 
 
 
 .prolang{
     display: grid;
-    grid-gap: 40px;
-    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-    grid-auto-rows:250px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-auto-rows:200px;
     grid-auto-flow:dense;
     justify-items: center;
     align-items: center;
+    margin:auto;
 
 }
 
 
 .program{
-    display: flex;    width: 200px;
-    height: 200px;
+    display: flex;    width: 185px;
+    height:185px;
     
     background: linear-gradient(to right, #181313d8,rgba(241, 114, 30, 0.39),rgba(231, 29, 53, 0.349), #87000070),
     url(coding.jpg)no-repeat center center ;
     background-size: cover; 
-    font-size: 40px;
+    font-size: 35px;
     border-radius: 250px;
     align-items: center;
     justify-content: center;
@@ -157,8 +154,22 @@ body{
 }
 
 .program:hover{
-    transform: scale(1.2);
+    transform: scale(0.8);
 }
+
+
+@media only screen and (max-width:900px){
+    .csharp{
+        display: none;
+    }
+      .html{
+        display: none;
+    }
+      .css{
+        display: none;
+    }
+}
+ 
 
 a{
     text-decoration: none;
@@ -204,6 +215,10 @@ button:hover{
 
 }
 
+
+
+
+
 /* --------------------------footer----------------------------------------- */
 
 footer{
@@ -225,12 +240,13 @@ footer{
 .designer{
     font-size: 15px;
 }
-
 /* -------------------------online courses------------------------- */
 .online{
     margin: 5px 20%;
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
+
+
 }
 
 @media only screen and (max-width:900px){
@@ -249,17 +265,8 @@ footer{
      justify-items: stretch;
      align-items: center;   
 
+
     }
-
-@media only screen and (max-width:900px){
-    .onlinecourses{
-            grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
-             grid-auto-rows: 180px;
-        
-    }
-
-
-}
 
 .onlinecourses img{
     box-sizing: border-box;
@@ -287,12 +294,16 @@ footer{
 
  .onlinecourses a .codeacademy{
     box-sizing: border-box;
-    padding:20px;
+    padding:28px;
 }
 
  .onlinecourses a .coursera{
     box-sizing: border-box;
-    padding:25px;
+    padding:30px;
+}
+ .onlinecourses a .khan{
+    box-sizing: border-box;
+    padding:30px;
 }
 
 /* #####################3 */
